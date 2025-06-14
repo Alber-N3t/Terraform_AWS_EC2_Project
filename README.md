@@ -1,4 +1,4 @@
-# ## 🤖 Project Overview
+## 🤖 Project Overview
 This is my first ever project in my journey of expanding my skills on Cloud & Security Engineering. This Infrastructure as a Code (IaC) project is my first steps on expanding my knowledge on Terraform and all its magnificent features, while also learning about automation in cloud.
 
 In this project, I'll be:
