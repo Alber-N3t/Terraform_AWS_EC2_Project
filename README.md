@@ -1,4 +1,4 @@
-## 🤖 Project Overview
+# 🤖 Project Overview
 This is my first ever project in my journey of expanding my skills on Cloud & Security Engineering. This Infrastructure as a Code (IaC) project is my first steps on expanding my knowledge on Terraform and all its magnificent features, while also learning about automation in cloud.
 
 In this project, I'll be:
@@ -6,13 +6,13 @@ In this project, I'll be:
 * Deploying an AWS EC2 Instance with a **Windows Server 2025 Base AMI** and a **T2.Micro Instance Type**
 * Tagging the EC2 instance with a specific tag ("EC2_Test" in this instance)
 
-## 📝Project Prerequisites
+# 📝Project Prerequisites
 Here are several stuff that will are needed before actualling starting this project:
   * Any IDE - I prefer Visual Studio Code, but you can choose any other IDE that supports Terraform.
   * AWS CLI - In order to not Hard-Code any sort of details such as the AWS Access and Secret Key, we will use the AWS CLI to configure and authenticate the profile instead of hard-coding the keys within the main .tf file.
   * Terraform - How else could I do this Project if I do not have Terraform? 😂
 
-## 🔒Warning - Hard-coding your AWS Keys 
+# 🔒Warning - Hard-coding your AWS Keys 
 ***IT IS VERY IMPORTANT THAT YOU DO NOT HARD-CODE ANY SORT OF CREDENTIALS LIKE THE AWS ACCCESS AND SECRET KEY IN THIS INSTANCE !!!!!!!!***
 
 In order to not post the access/secret keys along with the code, we will need to configure the credentials credentials using the AWS CLI. 
@@ -29,7 +29,7 @@ After typing this and hitting enter, the CLI will ask you for the following:
 By doing this, your credentials are safely stored, and there will be no need to hard-code your Access and Secret Key.
 
 
-## 🧑‍💻Code Breakdown
+# 🧑‍💻Code Breakdown
 In this section, I'll be breaking down the AWS_EC2.tf file and what each part of the code does.
 ```
  provider "aws" {
@@ -74,6 +74,6 @@ Now check AWS if the new EC2 Instance shows under EC2
 
 Congratulations, the EC2 Instance has been created through Terraform :)
 
-##  🤓 Conclusion
+#  🤓 Conclusion
 This is first of many projects where I'll be doing where Terraform and some sort of Cloud Platform will be utilised to create amazing stuff. I was incredibly joyful when I was finally able to create my first EC2 instance, and I'm looking forward to doing other Terraform projects :)
 
