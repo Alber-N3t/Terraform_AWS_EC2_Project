@@ -12,7 +12,7 @@ Here are several stuff that will are needed before actualling starting this proj
   * AWS CLI - In order to not Hard-Code any sort of details such as the AWS Access and Secret Key, we will use the AWS CLI to configure and authenticate the profile instead of hard-coding the keys within the main .tf file.
   * Terraform - How else could I do this Project if I do not have Terraform? 😂
 
-## 🔒Warning - Hard-coding your AWS Access Key and Secret Key directly into your Terraform file
+## 🔒Warning - Hard-coding your AWS Keys 
 ***IT IS VERY IMPORTANT THAT YOU DO NOT HARD-CODE ANY SORT OF CREDENTIALS LIKE THE AWS ACCCESS AND SECRET KEY IN THIS INSTANCE !!!!!!!!***
 
 In order to not post the access/secret keys along with the code, we will need to configure the credentials credentials using the AWS CLI. 
