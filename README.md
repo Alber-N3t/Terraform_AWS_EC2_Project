@@ -65,6 +65,15 @@ Once Terraform has been initiated, we can type ```terraform plan``` so that we c
 After reviewing the plan, go ahead and type ```terraform apply``` for Terraform to create the EC2 Instance.
 
 
+After performing the ```terraform apply``` command, you should see the below:
+![image](https://github.com/user-attachments/assets/f2a6b2f3-d6c1-44cd-8f75-33158d8a0b64)
+
+
+Now check AWS if the new EC2 Instance shows under EC2
+![image](https://github.com/user-attachments/assets/1eccd3d5-f00e-4481-8225-2de4718c8d42)
+
+Congratulations, the EC2 Instance has been created through Terraform :)
+
 ##  🤓 Conclusion
 This is first of many projects where I'll be doing where Terraform and some sort of Cloud Platform will be utilised to create amazing stuff. I was incredibly joyful when I was finally able to create my first EC2 instance, and I'm looking forward to doing other Terraform projects :)
 
