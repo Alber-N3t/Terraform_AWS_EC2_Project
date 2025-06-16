@@ -24,7 +24,7 @@ aws configure --profile "my-profile-name"
 After typing this and hitting enter, the CLI will ask you for the following:
  * AWS Access Key
  * AWS Secret Access Key
- * Default Region - eu-west-2 in this instance, but it all depends on which region you want to create the instance
+ * Default Region - eu-west-2 in this instance, but it all depends on which region you want to create the instance. For this project, I've chosen eu-west-2 (London)
 
 By doing this, your credentials are safely stored, and there will be no need to hard-code your Access and Secret Key.
 
